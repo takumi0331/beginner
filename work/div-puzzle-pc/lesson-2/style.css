@@ -8,3 +8,59 @@
 }
 
 /* ここから書く */
+.wrapper {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.top {
+  height: 100px;
+  background-color: #141f40;
+}
+
+.middle__left {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+  float: left;
+}
+
+.middle__right {
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+.middle_right_top_left {
+  width: 150px;
+  float: left;
+}
+
+.middle_right_top_left_top {
+  width: 150px;
+  height: 50px;
+  background: #dbd400;
+}
+
+.middle_right_top_left_botoom {
+  width: 150px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+.middle_right_top {
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+  float: left;
+}
+
+.middle_right_botoom {
+  height: 100px;
+  background-color: #8c2727
+}
+
+.bottom {
+  height: 100px;
+  background-color: #d98d30;
+}
