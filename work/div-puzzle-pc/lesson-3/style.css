@@ -8,3 +8,21 @@
 }
 
 /* ここから書く */
+.wrapper {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.top {
+  position: relative;
+  height: 100px;
+  background-color: #141f40;
+}
+
+.top_in_box {
+  position: relative;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #fff;
+}
