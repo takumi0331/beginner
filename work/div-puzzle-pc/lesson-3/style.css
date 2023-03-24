@@ -56,7 +56,7 @@
 
 .middle_right_in_box {
   position: absolute;
-  top: 40ppx;
+  top: 40px;
   left: 40px;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .middle_right_box:first-child {
-  margin-top: 40px;
+  margin-top: 0;
 }
 
 .bottom {
