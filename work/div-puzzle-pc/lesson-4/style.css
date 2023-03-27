@@ -1,3 +1,60 @@
 @charset "UTF-8";
 
 /* ここから書く */
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.top {
+    height: 100px;
+    background-color: #141f40;
+}
+
+.middle {
+    display: flex;
+}
+
+.middle_left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+
+.middle_right {
+    width: 250px;
+}
+
+.middle_right_top {
+    display: flex;
+}
+
+.middle_right_top_left {
+    width: 150px;
+}
+
+.middle_right_top_left_top {
+    height: 50px;
+    background-color: #dbd400;
+}
+
+.middle_right_top_left_bottom {
+    height: 100px;
+    background-color: #0093b7;
+}
+
+.middle_right_top_right {
+    width: 100px;
+    background-color: #ff9e6b;
+}
+
+.middle_right_bottom {
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+
+.bottom {
+    height: 100px;
+    background-color: #d98d30;
+}
