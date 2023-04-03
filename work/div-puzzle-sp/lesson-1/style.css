@@ -32,24 +32,24 @@
     padding: 30px 20px;
 }
 
-.in_the_middle {
+.middle_Area {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.in_the_middle:first-child {
+.middle_Area:first-child {
     margin-top: 0;
 }
 
-.in_the_middle_left {
+.middle_Left {
     width: 50px;
     height: 50px;
     background-color: #ccc;
     border-radius: 4px;
 }
 
-.in_the_middle_right {
+.middle_Right {
     flex: 1;
     height: 100px;
     margin-left: 20px;
