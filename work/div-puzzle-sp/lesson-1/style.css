@@ -14,14 +14,14 @@
     background-color: #e91e63;
 }
 
-.top_right {
+.topRight {
     width: 100px;
     height: 30px;
     background-color: #fff;
     border-radius: 4px;
 }
 
-.top_left {
+.topLeft {
     width: 30px;
     height: 30px;
     background-color: #fff;
@@ -32,24 +32,24 @@
     padding: 30px 20px;
 }
 
-.middle_Area {
+.middleArea {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.middle_Area:first-child {
+.middleArea:first-child {
     margin-top: 0;
 }
 
-.middle_Left {
+.middleLeft {
     width: 50px;
     height: 50px;
     background-color: #ccc;
     border-radius: 4px;
 }
 
-.middle_Right {
+.middleRight {
     flex: 1;
     height: 100px;
     margin-left: 20px;
