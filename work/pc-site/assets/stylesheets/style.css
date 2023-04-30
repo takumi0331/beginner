@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-.I-wrapper {
+.l-wrapper {
     padding: 70px 0 40px;
     background-color: #ebe6d3;
 }
 
-.I-header {
+.l-header {
     position: fixed;
     top: 0;
     left: 0;
@@ -18,11 +18,11 @@
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.I-logo {
+.l-header__logo {
     width: 50px;
 }
 
-.I-logo img {
+.l-header__logo img {
     width: 100%;
     height: auto;
 }
@@ -35,74 +35,74 @@
     margin-left: 30px;
 }
 
-.c-navLink {
+.c-navList__link {
     color: #333;
     text-decoration: none;
     transition: 0.3s;
 }
 
-.c-navLink:hover {
+.c-navList__link:hover {
     opacity: 0.5;
 }
 
-.I-hero {
+.p-hero {
     height: 500px;
     background-image: url(../images/hero.jpg);
 }
 
-.I-main {
+.l-main {
     width: 960px;
     margin: 80px auto 0;
 }
 
-.c-mainTitle {
+.c-main__title {
     text-align: center;
     font-size: 24px;
     color: #666;
 }
 
-.I-contents {
+.l-contents {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
 }
 
-.I-mainLeft_prodution {
+.l-mainLeft__prodution {
     width: 670px;
 }
 
-.c-mainLeft_title {
+.c-mainLeft__title {
     padding-left: 12px;
     border-left: 5px solid #d95483;
     font-size: 18px;
     color: #666;
 }
 
-.I-mainLeft_picture {
+.l-mainLeft__picture {
     margin-top: 20px;
 }
 
-.I-mainLeft_picture img {
+.l-mainLeft__picture img {
     width: 100%; 
     height: auto; 
   }
   
 
-.c-pitureList {
+.l-pitureList {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.c-pitureList > li {
+.l-pitureList > li {
     width: 210px;
 }
 
-.c-pitureList > li:nth-child(n+4) {
+.l-pitureList > li:nth-child(n+4) {
     margin-top: 10px;
 }
 
-.I-mainRight {
+.l-mainRight {
     width: 260px;
 }
 
@@ -113,7 +113,7 @@
     color: #666;
 }
 
-.p-sentenceArea {
+.l-sentenceArea {
     width: 260px;
 }
 
@@ -123,29 +123,29 @@
     color: #666;
 }
 
-.I-footer {
+.l-footer {
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
 
-.c-footerBox {
+.l-footerBox {
     width: 200px;
     padding: 8px;
     background-color: #69c;
 }
 
-.c-footerBox_inner {
+.l-footerBox_inner {
     border: 1px solid #fff;
     padding: 16px;
 }
 
-.c-footerText {
+.l-footerText {
     text-align: center;
     color: #fff;
     font-size: 12px;
 }
 
-.c-footerText:not(:first-child) {
+.l-footerText:not(:first-child) {
     margin-top: 8px;
 }
