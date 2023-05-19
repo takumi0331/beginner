@@ -77,3 +77,26 @@
     text-align: center;
     letter-spacing: 2px;
 }
+
+.p-main__sentence {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    color: #7e7e7e;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.p-main__sentence::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #fcc72c;
+    transform: translateX(-50%);
+}
