@@ -126,6 +126,35 @@
 
 .p-work {
     padding: 100px 54px 60px;
-    background-color: #efefef;
+    background-color: #EFEFEF;
 }
   
+.p-work__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.p-work__framework {
+    width: 33%;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    text-align: center;
+}
+  
+.p-work__framework>img {
+    width: 60px;
+    margin-bottom: 30px;
+}
+  
+.p-work__title {
+    margin-bottom: 20px;
+    color: #4E4E4E;
+    font-size: 20px;
+}
+  
+.p-work__framework>p {
+    color: #7C7C7C;
+    font-size: 15px;
+    line-height: 22.4px;
+}
