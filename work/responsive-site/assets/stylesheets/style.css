@@ -61,6 +61,7 @@
 }
 
 .p-hero > img {
+    width: 100%;
     height: 100vh;
     object-fit: cover;
     object-position: left top;
@@ -215,4 +216,111 @@
 
 .p-blog__button:hover {
     background-color: #666;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .l-header {
+        padding: 0;
+    }
+
+    .l-header__pc {
+        display: none;
+    }
+
+    .l-header__sp {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        padding: 0 5px;
+    }
+
+    .l-header__sp > span {
+        display: block;
+        position: absolute;
+        right: 20px;
+        width: 30px;
+        border-bottom: solid 2px #fff;
+    }
+
+    .l-header__sp > span:nth-child(1) {
+        top: 15px;
+    }
+
+    .l-header__sp > span:nth-child(2) {
+        top: 25px;
+    }
+
+    .l-header__sp > span:nth-child(3) {
+        top: 35px;
+    }
+
+    .p-hero__title {
+        font-size: 40px;
+    }
+
+    .p-hero > img {
+        object-position: 0;
+    }
+
+    .p-about {
+        padding: 80px 15px 60px;
+    }
+
+    .p-main__sentence:after {
+        top: 100px;
+        height: 2px;
+    }
+
+    .p-about__list > img:not(:nth-child(4n+2)),
+    .p-about__list > img:not(:nth-child(4n+3)),
+    .p-about__list > img:nth-child(4n+2),
+    .p-about__list > img:nth-child(4n+3) {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .p-work {
+        padding: 80px 15px 40px;
+    }
+
+    .p-work__framework {
+        width: 100%;
+        padding: 0;
+    }
+
+    .p-blog {
+        padding: 80px 15px 42px;
+    }
+
+    .p-blog__framework {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .p-blog__framework:nth-of-type(2) {
+        text-align: left;
+    }
+
+    .p-blog__image--left,
+    .p-blog__image--right {
+        width: 100%;
+        margin: 0;
+    }
+
+    .p-blog__summary {
+        margin: 20px 0;
+    }
+
+    .p-blog__button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .p-blog__button:hover {
+        background-color: #666;
+    }
+    
 }
